@@ -1,5 +1,6 @@
 body {
   background-color: aliceblue;
+  margin: 100px 200px;
 }
 .recent-login {
   font-size: 28px;
@@ -51,8 +52,10 @@ a{
     display: flex;
     flex-direction: column;
     width:505px;
-    height: 500px;
+    height: 400px;
     background-color: white;
+    margin-top: -100px;
+    margin-left: 200px;
 }
 .email,.password{
     padding:10px;
