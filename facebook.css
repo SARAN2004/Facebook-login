@@ -1,0 +1,90 @@
+body {
+  background-color: aliceblue;
+}
+.recent-login {
+  font-size: 28px;
+  margin-left: 40px;
+}
+.click-your{
+    margin-left: 40px;
+}
+.image-div{
+    display: flex;
+    flex-direction: row;
+}
+.whole-div{
+    display: flex;
+    flex-direction: row;
+}
+.profile {
+  position: relative;
+  width: 200px;
+  margin: 0px;
+  margin-left: 40px;
+}
+.close-image{
+    position: absolute;
+    top:1px;
+    left:1px;
+}
+.number-count{
+    position: absolute;
+    right:-5px;
+    top:-5px;
+}
+.name{
+    position: relative;
+    text-align: center;
+    margin-top:-10px;
+    width: 200px;
+    height: 50px;
+    border-radius:0px 0px 10px 10px;
+    border: lightgray solid 1px;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width:505px;
+    height: 500px;
+    background-color: white;
+}
+.email,.password{
+    padding:10px;
+    font-size: 20px;
+    width:440px;
+    height:40px ;
+    margin: 20px 20px 0px 20px;
+}
+.login{
+    background-color: #1877f2;
+    color:white;
+    padding:10px;
+    font-size: 20px;
+    width:460px;
+    height:40px ;
+    margin: 20px 20px 0px 20px;
+    border: none;
+    border-radius: 4px;
+}
+.forget{
+    text-align: center;
+    margin: 20px 0px;
+}
+.create{
+    background-color: #42b72a;
+    color:white;
+    padding:10px;
+    font-size: 20px;
+    width:360px;
+    height:40px ;
+    margin: 20px 20px 0px 80px;
+    border: none;
+    border-radius: 4px;
+    align-content: center;
+}
